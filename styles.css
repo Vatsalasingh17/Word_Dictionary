@@ -1,0 +1,117 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Exo 2", serif;
+    background-color: #FF3CAC;
+background-image: -webkit-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+background-image: -moz-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+background-image: -o-linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+    color:#580e23;
+    font-weight:bolder;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 15px; /* Increased padding for better touch targets */
+    border: 2px solid #4a90e2;
+    border-radius: 25px; /* More rounded corners */
+    font-size: 1em;
+    margin-bottom: 20px;
+    transition: border-color 0.3s, box-shadow 0.3s; /* Added transition for box-shadow */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+.info-text {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.meaning-container {
+    display:none;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.title {
+    font-weight: bold;
+    color: #0a1726;
+}
+
+.meaning {
+    color: #0a1726;
+}
+#syn
+{
+    color: #0a1726;
+}
+#ayn
+{
+    color: #0a1726;
+}
+
+audio {
+    margin-top: 10px;
+    width: 100%; /* Full width to match the container */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f0f4f8; /* Light background for contrast */
+    border: 1px solid #e0e0e0; /* Subtle border */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 5px; /* Padding for better touch targets */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .heading {
+        font-size: 1.5em;
+    }
+
+    .input {
+        font-size: 0.9em;
+    }
+
+    .info-text {
+        font-size: 0.8em;
+    }
+}
+p{
+    color:rgb(0, 128, 128);
+    font-weight: 800;
+}
