@@ -22,6 +22,10 @@ Responsive UI for quick lookup.
 
 Clean design aimed at ease of use.
 
+UI
+<img width="1030" height="784" alt="image" src="https://github.com/user-attachments/assets/89a2a7bd-0403-4c72-a891-d72dda699598" />
+
+
 📂 Project Structure
 /Word_Dictionary
 |– index.html        ← main page  
